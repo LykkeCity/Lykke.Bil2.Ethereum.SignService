@@ -1,0 +1,19 @@
+# Common settings
+
+MonitoringServiceClient:
+    MonitoringServiceUrl:
+        settings-key: MonitoringServiceUrl
+
+# Sign service settings
+
+EncryptionPrivateKey:
+    settings-key: Ethereum-SignService-EncryptionPrivateKey
+
+# Define specific blockchain settings below, if necessary.
+#
+# For example:
+#
+# HotWalletAddress:
+#   settings-key: Ethereum-HotWalletAddress
+# NetworkType:
+#   settings-key: Ethereum-NetworkType
