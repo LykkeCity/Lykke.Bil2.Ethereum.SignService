@@ -27,5 +27,6 @@
 
   <ItemGroup>
     <PackageReference Include="Lykke.Bil2.Sdk.SignService" Version="1.0.0-beta.18" />
+    <PackageReference Include="Nethereum.Signer" Version="3.3.0" />
   </ItemGroup>
 </Project>

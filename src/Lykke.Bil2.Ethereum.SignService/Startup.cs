@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using JetBrains.Annotations;
 using Lykke.Bil2.Ethereum.SignService.Services;
 using Lykke.Bil2.Ethereum.SignService.Settings;
@@ -23,16 +23,10 @@ namespace Lykke.Bil2.Ethereum.SignService
                 // Register required service implementations:
 
                 options.TransactionSignerFactory = ctx =>
-                    new TransactionSigner
-                    (
-                        /* TODO: Provide specific settings and dependencies, if necessary */
-                    );
+                    new TransactionSigner();
 
                 options.AddressGeneratorFactory = ctx =>
-                    new AddressGenerator
-                    (
-                        /* TODO: Provide specific settings and dependencies, if necessary */
-                    );
+                    new AddressGenerator();
 
                 // To access settings for any purpose, (f.e. to register additional services,
                 // taking in account that usually it shouldn't be necessary in sign service),
